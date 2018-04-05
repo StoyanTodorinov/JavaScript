@@ -1,0 +1,6 @@
+My JavaScript Advanced Exam
+===========================
+Ex1 - simple DOM manipulation
+Ex2 - unit testing a class using Mocha and Chai
+Ex3 - a class processing payments
+Ex4 - building a table, adding and removing table rows using template engine Handlebars
