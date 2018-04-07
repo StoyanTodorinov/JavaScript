@@ -1,5 +1,5 @@
 SPA
-+++++++++++++++++++++++++++++
+===============================================
 Resources: sammy, handlebars, jQuery, bootstrap
 Database: kinvey
 
