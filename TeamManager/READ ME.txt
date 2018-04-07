@@ -1,0 +1,6 @@
+SPA
+++++++++++++++++++++++
+Resources: sammy, handlebars, jQuery, bootstrap
+Database: kinvey
+
+A small application practicing routing and templating.
