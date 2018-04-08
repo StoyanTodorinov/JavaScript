@@ -1,0 +1,4 @@
+Store SPA
+===================
+Previous store project implemented using handlebars, jQuery and kinvey.
+(manual routing implementation and templating)
