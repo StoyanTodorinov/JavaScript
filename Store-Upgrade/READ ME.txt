@@ -2,3 +2,6 @@ Store SPA
 ===================
 Previous store project implemented using handlebars, jQuery and kinvey.
 (manual routing implementation and templating)
+
+IMPORTANT
+If you have ad blocking plugin installed please disable it before viewing the app :)
