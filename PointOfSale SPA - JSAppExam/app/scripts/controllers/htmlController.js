@@ -6,9 +6,18 @@ let htmlController = (() => {
     }
 
     function attachLoadingEvents() {
+        let loading = 0;
         $(document).on({
-            ajaxStart: () => $("div#divLoading").addClass('show'),
-            ajaxStop: () => $("div#divLoading").removeClass('show')
+            ajaxStart: function () {
+                if (!loading) $("div#divLoading").addClass('show');
+                loading++;
+            },
+            ajaxStop: function () {
+                loading--;
+                setTimeout(() => {
+                    if (!loading) $("div#divLoading").removeClass('show')
+                }, 300);
+            }
         });
     }
 
