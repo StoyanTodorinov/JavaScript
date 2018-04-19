@@ -12,15 +12,15 @@
     <script src="../node_modules/handlebars/dist/handlebars.min.js"></script>
     <script src="../node_modules/sammy/lib/min/sammy-0.7.6.min.js"></script>
     <script src="../node_modules/sammy/lib/min/plugins/sammy.handlebars-0.7.6.min.js"></script>
-    <script src="scripts/controllers/handler.js"></script>
+    <script src="scripts/controllers/formController.js"></script>
     <script src="scripts/controllers/htmlController.js"></script>
-    <script src="scripts/controllers/renderer.js"></script>
+    <script src="scripts/controllers/viewController.js"></script>
     <script src="scripts/handlebars/registerHelpers.js"></script>
     <script src="./scripts/models/notification.js"></script>
     <script src="./scripts/models/requester.js"></script>
-    <script src="./scripts/services/entryService.js"></script>
-    <script src="./scripts/services/receiptService.js"></script>
-    <script src="./scripts/services/userService.js"></script>
+    <script src="scripts/models/services/entryService.js"></script>
+    <script src="scripts/models/services/receiptService.js"></script>
+    <script src="scripts/models/services/userService.js"></script>
     <script src="./scripts/app.js"></script>
 </head>
 
@@ -28,10 +28,9 @@
 
     <div id="container"></div>
 
+    <div id="divLoading">
+    </div>
     <div id="notifications">
-        <div id="loadingBox" class="notification">
-            <span>Loading …</span>
-        </div>
         <div id="infoBox" class="notification">
             <span>Info</span>
         </div>

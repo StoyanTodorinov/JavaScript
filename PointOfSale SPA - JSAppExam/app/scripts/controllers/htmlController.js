@@ -7,8 +7,8 @@ let htmlController = (() => {
 
     function attachLoadingEvents() {
         $(document).on({
-            ajaxStart: () => $('#loadingBox').show(),
-            ajaxStop: () => $('#loadingBox').fadeOut()
+            ajaxStart: () => $("div#divLoading").addClass('show'),
+            ajaxStop: () => $("div#divLoading").removeClass('show')
         });
     }
 
