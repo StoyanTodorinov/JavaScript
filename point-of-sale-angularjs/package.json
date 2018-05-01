@@ -1,0 +1,17 @@
+{
+  "name": "point-of-sale-angularjs",
+  "version": "1.0.0",
+  "description": "Small SPA(first steps with AngularJS)",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.6.10",
+    "jquery": "3.3.1"
+  },
+  "url": "https://github.com/StoyanTodorinov/JavaScript/tree/master/point-of-sale-angularjs",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

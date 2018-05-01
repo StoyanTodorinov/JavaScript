@@ -1,0 +1,52 @@
+#notifications {
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    margin: 1em;
+}
+
+.notification {
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: right;
+    display: none;
+}
+
+.notification > span {
+    padding: 0.5em 2em 0.5em 2em;
+    border-radius: 10px;
+    width: 500px;
+    display: block;
+    text-align: center;
+}
+
+#loadingBox > span {
+    background: #7CB3E9;
+}
+
+#infoBox > span {
+    background: #393;
+}
+
+#errorBox > span {
+    background: #F50;
+}
+
+/*TEST*/
+#divLoading {
+    display: none;
+}
+
+#divLoading.show {
+    display: block;
+    position: fixed;
+    z-index: 100;
+    opacity: 0.6;
+    background: #666 url('http://loadinggif.com/images/image-selection/3.gif') no-repeat center;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+}
